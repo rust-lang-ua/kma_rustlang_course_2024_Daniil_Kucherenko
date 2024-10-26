@@ -1,6 +1,10 @@
 // if1.rs
 
-// I AM NOT DONE
+// I AM DONE
+
+fn main () {
+    println!("{}", bigger(4, 5))
+}
 
 pub fn bigger(a: i32, b: i32) -> i32 {
     // Complete this function to return the bigger number!
@@ -8,6 +12,7 @@ pub fn bigger(a: i32, b: i32) -> i32 {
     // - another function call
     // - additional variables
     // Execute `rustlings hint if1` for hints
+    return if a > b { a } else { b };;
 }
 
 // Don't mind this for now :)
